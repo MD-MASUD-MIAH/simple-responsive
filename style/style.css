@@ -79,6 +79,7 @@ text-align: center;
     .hero{
         max-width: 100%;
         flex-direction: column;
+        padding:10px 10px 10px 10px;
     }
     .hero-item{
         
