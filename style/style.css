@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     overflow-x: hidden;
@@ -9,6 +10,7 @@ body {
   
 
 .hero{
+    width: 100%;
     background: rgba(229, 84, 115, 0.1);
     display: flex;
     justify-content: space-around;
@@ -75,18 +77,24 @@ text-align: center;
 
 @media  screen and (max-width: 576px) {
     .hero{
-        width: 100%;
+        max-width: 100%;
         flex-direction: column;
     }
     .hero-item{
-        width: 100%;
+        
+       width: 100%;
         text-align: center;
         margin-left: 2px;
         
     }
-    .hero-item2{
+    .hero-item2 {
         width: 100%;
         text-align: center;
         
     }
+    .hero-item2 img {
+        max-width: 100%;
+        height: auto;
+      }
+      
 }
