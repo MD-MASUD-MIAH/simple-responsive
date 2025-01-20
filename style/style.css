@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.lato{
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
 
 *{
     margin: 0;
@@ -38,7 +47,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.hero-item p{
+ .ptag{
     color: rgba(39, 39, 39, 0.6);
 font-family: Lato;
 font-size: 18px;
@@ -48,7 +57,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 
-.hero-item button{
+.btn{
     
 
 width: 177px;
@@ -75,6 +84,224 @@ text-align: center;
     align-items: end;
 }
 
+.fool-cotainer{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 178px;
+}
+
+
+
+.title-container h1{
+text-align: center;
+color: rgb(39, 39, 39);
+font-size: 2.5rem;
+font-weight: 800;
+
+}
+.title-container p{
+    text-align: center;
+    margin-top: 10px;
+}
+.fool-div{
+    margin-bottom: 100px;
+}
+.fool{
+ max-width: 464px;
+ height: 568px;
+ background: rgba(167, 33, 98, 0.15);;
+ border-radius: 300px 300px 0px 0px;
+ display: flex;
+ justify-content: center;
+ align-items: end;
+}
+
+.fool-div h1{
+   
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 1.75rem;
+font-weight: 700;
+margin-top: 20px;
+
+text-align: center;
+text-decoration-line: underline;
+}
+.fool-all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.full2{
+    background-color: rgba(5, 151, 160, 0.15)
+}
+
+.full3{
+    background-color: rgba(71, 125, 17, 0.15)
+}
+
+
+.day-contaier{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 100px;
+}
+
+
+
+.day{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center ;
+    justify-content: center;
+    padding: 86px;
+}
+
+.off-cotainer{
+    border-radius: 8px;
+
+background: rgba(229, 84, 115, 0.05);
+display: flex;
+
+justify-content: space-evenly;
+align-items: center;
+padding: 100px;
+margin-bottom: 100px;
+}
+
+.fast-off{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+.fast-off h1{
+font-size: 2.5rem;
+font-weight: 800;
+}
+.golap-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.golap-container p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.golap-container h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 2.5rem;
+font-weight: 800;
+margin-bottom: 20px;
+text-align: center;
+}
+
+
+.golap{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.bg-con{
+    max-width: 1440px;
+    height: 440px;
+    margin: 0 auto;
+    background-image: url("../Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.bg-con h1{
+    
+color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 2.5rem;
+font-weight: 800;
+
+
+}
+.bg-con input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+}
+
+.bg-con input[placeholder]{
+    padding-left: 30px;
+}
+
+.input-div{
+    display: flex;
+    gap: 20px;
+}
+
+footer{
+    margin-top: 150px;
+    
+    background-color: black;
+    color: white;
+    padding: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+footer h1{
+    font-family: Lato;
+font-size: 3rem;
+font-weight: 800;
+
+
+}
+
+footer div p{
+    color: rgba(255, 255, 255, 0.9);
+font-family: Lato;
+font-size: 1.25rem;
+font-weight: 400;
+
+text-align: center;
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    
+    text-align: center; 
+}
+
+
+
+
+
+
+
 @media  screen and (max-width: 576px) {
     .hero{
         max-width: 100%;
@@ -97,5 +324,80 @@ text-align: center;
         max-width: 100%;
         height: auto;
       }
-      
+   .fool{
+    width: 300px;
+    height: 400px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+   }  
+   .fool img{
+    width: 250px;
+    height: 300px;
+    
+   }
+
+
+   .day-contaier,.fool-all{
+    grid-template-columns: repeat(1 ,1fr);
+    justify-items: center;
+   }
+   .off-cotainer{
+    flex-direction: column-reverse;
+    
+   }
+
+   .golap img{
+width: 250px;
+height: 300px;
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+   }
+
+
+
+   .bg-con input{
+    width: 300px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
 }
+.input-div{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+/* for tablet  */
+
+@media screen and (min-width: 576px) and (max-width: 1024px){
+
+.hero-item{
+    margin-left: 20px;
+}
+
+
+.day-contaier,.fool-all{
+    grid-template-columns: repeat(1 ,1fr);
+    justify-items: center;
+    
+   }
+
+
+   .bg-con input{
+    width: 300px;
+    height: 44px;
+    border-radius: 8px;
+    border: none;
+}
+.input-div{
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+} 
+    
